@@ -8,17 +8,35 @@
 
 /* Begin PBXBuildFile section */
 		18C04B8E2AD5297A00B96EDA /* SwiftUI_AppetizersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C04B8D2AD5297A00B96EDA /* SwiftUI_AppetizersApp.swift */; };
-		18C04B902AD5297A00B96EDA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C04B8F2AD5297A00B96EDA /* ContentView.swift */; };
+		18C04B902AD5297A00B96EDA /* AppetizersTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C04B8F2AD5297A00B96EDA /* AppetizersTabView.swift */; };
 		18C04B922AD5297D00B96EDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C04B912AD5297D00B96EDA /* Assets.xcassets */; };
 		18C04B952AD5297D00B96EDA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C04B942AD5297D00B96EDA /* Preview Assets.xcassets */; };
+		18C04B9C2AD52A1500B96EDA /* AppetizerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C04B9B2AD52A1500B96EDA /* AppetizerListView.swift */; };
+		18C04B9E2AD52A2500B96EDA /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C04B9D2AD52A2500B96EDA /* OrderView.swift */; };
+		18C04BA02AD52A3500B96EDA /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C04B9F2AD52A3500B96EDA /* AccountView.swift */; };
+		18C04BA22AD5338000B96EDA /* Appetizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C04BA12AD5338000B96EDA /* Appetizer.swift */; };
+		18C04BA42AD54F8400B96EDA /* AppetizerListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C04BA32AD54F8400B96EDA /* AppetizerListCell.swift */; };
+		18C04BA62AD5604000B96EDA /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C04BA52AD5604000B96EDA /* NetworkManager.swift */; };
+		18C04BA82AD5609200B96EDA /* AppetizerListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C04BA72AD5609200B96EDA /* AppetizerListViewModel.swift */; };
+		18C04BAA2AD5626700B96EDA /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C04BA92AD5626700B96EDA /* APIError.swift */; };
+		18C04BAC2AD56EB600B96EDA /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C04BAB2AD56EB600B96EDA /* Alert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		18C04B8A2AD5297A00B96EDA /* SwiftUI-Appetizers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Appetizers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18C04B8D2AD5297A00B96EDA /* SwiftUI_AppetizersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_AppetizersApp.swift; sourceTree = "<group>"; };
-		18C04B8F2AD5297A00B96EDA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		18C04B8F2AD5297A00B96EDA /* AppetizersTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizersTabView.swift; sourceTree = "<group>"; };
 		18C04B912AD5297D00B96EDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18C04B942AD5297D00B96EDA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		18C04B9B2AD52A1500B96EDA /* AppetizerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListView.swift; sourceTree = "<group>"; };
+		18C04B9D2AD52A2500B96EDA /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		18C04B9F2AD52A3500B96EDA /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		18C04BA12AD5338000B96EDA /* Appetizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appetizer.swift; sourceTree = "<group>"; };
+		18C04BA32AD54F8400B96EDA /* AppetizerListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListCell.swift; sourceTree = "<group>"; };
+		18C04BA52AD5604000B96EDA /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		18C04BA72AD5609200B96EDA /* AppetizerListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListViewModel.swift; sourceTree = "<group>"; };
+		18C04BA92AD5626700B96EDA /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		18C04BAB2AD56EB600B96EDA /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +70,18 @@
 			isa = PBXGroup;
 			children = (
 				18C04B8D2AD5297A00B96EDA /* SwiftUI_AppetizersApp.swift */,
-				18C04B8F2AD5297A00B96EDA /* ContentView.swift */,
+				18C04B8F2AD5297A00B96EDA /* AppetizersTabView.swift */,
 				18C04B912AD5297D00B96EDA /* Assets.xcassets */,
 				18C04B932AD5297D00B96EDA /* Preview Content */,
+				18C04B9B2AD52A1500B96EDA /* AppetizerListView.swift */,
+				18C04B9D2AD52A2500B96EDA /* OrderView.swift */,
+				18C04B9F2AD52A3500B96EDA /* AccountView.swift */,
+				18C04BA12AD5338000B96EDA /* Appetizer.swift */,
+				18C04BA32AD54F8400B96EDA /* AppetizerListCell.swift */,
+				18C04BA52AD5604000B96EDA /* NetworkManager.swift */,
+				18C04BA72AD5609200B96EDA /* AppetizerListViewModel.swift */,
+				18C04BA92AD5626700B96EDA /* APIError.swift */,
+				18C04BAB2AD56EB600B96EDA /* Alert.swift */,
 			);
 			path = "SwiftUI-Appetizers";
 			sourceTree = "<group>";
@@ -137,8 +164,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18C04B902AD5297A00B96EDA /* ContentView.swift in Sources */,
+				18C04BA22AD5338000B96EDA /* Appetizer.swift in Sources */,
+				18C04BA42AD54F8400B96EDA /* AppetizerListCell.swift in Sources */,
+				18C04B902AD5297A00B96EDA /* AppetizersTabView.swift in Sources */,
+				18C04BAA2AD5626700B96EDA /* APIError.swift in Sources */,
+				18C04B9E2AD52A2500B96EDA /* OrderView.swift in Sources */,
+				18C04BA82AD5609200B96EDA /* AppetizerListViewModel.swift in Sources */,
+				18C04BA62AD5604000B96EDA /* NetworkManager.swift in Sources */,
 				18C04B8E2AD5297A00B96EDA /* SwiftUI_AppetizersApp.swift in Sources */,
+				18C04BAC2AD56EB600B96EDA /* Alert.swift in Sources */,
+				18C04B9C2AD52A1500B96EDA /* AppetizerListView.swift in Sources */,
+				18C04BA02AD52A3500B96EDA /* AccountView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
